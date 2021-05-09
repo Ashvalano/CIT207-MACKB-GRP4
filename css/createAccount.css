@@ -1,0 +1,104 @@
+.left {
+    width: 50%;
+    height: 710px;
+    float: left;
+    margin-left: -10px;
+    margin-top: -10px;
+    background: rgba(224, 49, 104, 0.8);
+}
+
+.left>a>img {
+    margin: 15px;
+    width: 220px;
+    height: 70px;
+}
+
+.left>p {
+    color: white;
+    margin-top: -10px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left>h1 {
+    color: white;
+    font-size: 54px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left>h3 {
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.left>button {
+    background: transparent;
+    color: white;
+    border-radius: 30px;
+    border:white;
+    border-style:solid;
+    width: 300px;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-left: 190px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.left>button:hover {
+    background: #02CCC0;
+}
+
+.right {
+    width: 670px;
+    height: 710px;
+    margin-top: -10px;
+    background: white;
+    float: left;
+}
+
+.right>form>h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 165px;
+    font-size: 32px;
+    margin-left: 120px;
+}
+
+.right>form>p {
+    margin-left: 120px;
+    font-weight:lighter;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.right>form>input {
+    width: 300px;
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 120px;
+}
+
+.right>form>button {
+    background: #E15581;
+    width: 300px;
+    height: 60px;
+    margin-left: 125px;
+    margin-top: 25px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right>form>button:hover {
+    background: #02CCC0;
+}
